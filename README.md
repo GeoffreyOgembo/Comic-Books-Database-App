@@ -8,9 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is my frontend application, built using react to code in Ruby that can communicate with an API I set up with Sinatra and Active Record that in order to access a local database of comic book titles and characters.
 
-The backend can be found here:
 
-https://github.com/mitchellht34/phase-3-sinatra-react-project-backend.git
 
 ### Getting Started
 
