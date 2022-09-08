@@ -16,7 +16,7 @@ This is my frontend application, built using react to code in Ruby that can comm
 
 If you wish to utilize this frontend for your own uses [**Fork and clone**][fork link] this repository to get started. If you wish to use it as it was intended, you must first fork and clone the backend. Once you start running a server with the backend, they will be ready to interact.
 
-[fork link]: 
+[fork link]: https://github.com/GeoffreyOgembo/Comic-Books-Database-App/blob/main/README.md
 
 First run 
 `npm install` to install the gems.
