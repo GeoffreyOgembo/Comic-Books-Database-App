@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## My Comic Book Database
+## My Comic Books Database
 
 ### Introduction
 
@@ -14,9 +14,9 @@ This is my frontend application, built using react to code in Ruby that can comm
 
 ### Frontend Setup
 
-If you wish to utilize this fronend for your own uses [**Fork and clone**][fork link] this repository to get started. If you wish to use it as it was intended, you must first fork and clone the backend. Once you start running a server with the backend, they will be ready to interact.
+If you wish to utilize this frontend for your own uses [**Fork and clone**][fork link] this repository to get started. If you wish to use it as it was intended, you must first fork and clone the backend. Once you start running a server with the backend, they will be ready to interact.
 
-[fork link]: https://github.com/mitchellht34/phase-3-sinatra-react-project-frontend.git
+[fork link]: 
 
 First run 
 `npm install` to install the gems.
