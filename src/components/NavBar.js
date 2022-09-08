@@ -4,9 +4,9 @@ const style = {
     width: "60%",
     margin: "5% 0 1%",
     padding: "1em",
-    textDecoration: "none",
-    color: "black",
-    backgroundColor: "grey",
+    textDecoration: "bolder",
+    color: "white",
+    backgroundColor: "green",
     fontWeight: "bold",
     verticalAlign: "center"
 }
@@ -21,14 +21,14 @@ function NavBar() {
 
     function mouseOver(e) {
         if(e.target.className === "active") {
-            e.target.style.background = "grey"
+            e.target.style.background = "green"
             e.target.style.color = "white"
         }
     }
 
     function mouseLeave(e) {
         if(e.target.className === "active") {
-            e.target.style.background = "yellow"
+            e.target.style.background = "green"
             e.target.style.color = "black"
         }
     }
