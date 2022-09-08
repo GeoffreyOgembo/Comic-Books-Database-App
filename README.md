@@ -22,7 +22,14 @@ First run
 `npm install` to install the gems.
 
 Then run `npm start` to start your frontend server
-It will be run on `localhost:3000`
+It will be run on `localhost:3000` 
+
+### Backend Setup
+To start the backend sercer first navigate into the backed directory by cd Backend then run the following commands:
+  First run
+   'bundle install' to install ruby gems
+Then run 'rackup config.ru' to start your backed server.
+Tt will run on "localhost:9292"
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
