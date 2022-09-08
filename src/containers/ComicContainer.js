@@ -6,20 +6,34 @@ function ComicContainer() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const resp = await fetch("http://localhost:9292/comics")
-                const data = await resp.json()
-                setComics(data)
-                setLoading(false)
-            } catch (error) {
-                alert(error)
-            }
-        }
+        fetch("http://localhost:9292/comics")
+        .then((res)=>res.json())
+        .then((data)=>{
+            setLoading(false)
+            setComics(data)
+        })
+   }, [])
+//    const userListing = users.map((user)=>(
+//     <UserList
+//     key={user.id}
+//     username={user.username}
+//     email={user.email}
+//     />
+//    ))
+    //     const fetchData = async () => {
+    //         try {
+    //             const resp = await fetch("http://localhost:9292/comics")
+    //             const data = await resp.json()
+    //             setComics(data)
+    //             setLoading(false)
+    //         } catch (error) {
+    //             alert(error)
+    //         }
+    //     }
 
-        fetchData()
+    //     fetchData()
 
-    }, []);
+    // }, []);
 
     if(loading) return <h1>Loading...</h1>
     
