@@ -12,6 +12,6 @@ end
 use Rack::JSONBodyParser
 
 # Our application
-use CharactersController
-use ComicsController
+# use CharactersController
+# use ComicsController
 run ApplicationController
