@@ -6,6 +6,8 @@ const style = {
     padding: "0.5em",
     textDecoration: "none",
     color: "white",
+
+    
     backgroundColor: "green",
     fontWeight: "bold",
     verticalAlign: "center"
@@ -14,7 +16,7 @@ const style = {
 const activeStyle = {
     fontWeight: "bolder",
     backgroundColor: "black",
-    color: "black"
+    color: "white"
 }
 
 function NavBar2() {
@@ -22,7 +24,7 @@ function NavBar2() {
     function mouseOver(e) {
         if(e.target.className === "active") {
             e.target.style.background = "green"
-            e.target.style.color = "black"
+            e.target.style.color = "white"
         }
     }
 

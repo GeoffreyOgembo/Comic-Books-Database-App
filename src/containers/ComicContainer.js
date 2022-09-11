@@ -13,13 +13,13 @@ function ComicContainer() {
             setComics(data)
         })
    }, [])
-//    const userListing = users.map((user)=>(
-//     <UserList
-//     key={user.id}
-//     username={user.username}
-//     email={user.email}
-//     />
-//    ))
+// //    const userListing = users.map((user)=>(
+// //     <UserList
+// //     key={user.id}
+// //     username={user.username}
+// //     email={user.email}
+// //     />
+// //    ))
     //     const fetchData = async () => {
     //         try {
     //             const resp = await fetch("http://localhost:9292/comics")
