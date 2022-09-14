@@ -8,7 +8,7 @@ function CharacterContainer() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const resp = await fetch("http://localhost:9292/characters")
+                const resp = await fetch("https://comic-books-database.herokuapp.com/characters")
                 const data = await resp.json()
                 setCharacters(data)
                 setLoading(false)
@@ -26,7 +26,7 @@ function CharacterContainer() {
 
     function handleDelete(id){
         console.log(id)
-        fetch(`http://localhost:9292/characters/${id}`, {
+        fetch(`https://comic-books-database.herokuapp.com/characters/${id}`, {
             method: 'DELETE'
         })
         .then(resp => resp.json())

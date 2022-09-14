@@ -6,7 +6,7 @@ function ComicContainer() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:9292/comics")
+        fetch("https://comic-books-database.herokuapp.com/comics")
         .then((res)=>res.json())
         .then((data)=>{
             setLoading(false)
@@ -39,7 +39,7 @@ function ComicContainer() {
     
 
     function handleDelete(id){
-        fetch(`http://localhost:9292/comics/${id}`, {
+        fetch(`https://comic-books-database.herokuapp.com/comics${id}`, {
             method: 'DELETE'
         })
         .then(resp => resp.json())
