@@ -28,7 +28,7 @@ function CharacterForm() {
             powers: character.powers
         }
 
-        fetch("http://localhost:9292/characters", {
+        fetch("https://comic-books-database.herokuapp.com/characters", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

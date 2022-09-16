@@ -34,7 +34,7 @@ function ComicForm() {
             artist: comic.artist,
         }
 
-        fetch("http://localhost:9292/comics", {
+        fetch("https://comic-books-database.herokuapp.com/comics", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
